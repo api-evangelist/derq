@@ -1,7 +1,30 @@
 aid: derq
 name: Derq
-description: Derq is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Derq is an MIT spinoff (founded 2016, with operations in Dubai and Detroit)
+  building AI-powered intelligent transportation systems that help cities,
+  departments of transportation, and infrastructure operators prevent crashes
+  and improve traffic flow. Its hardware-agnostic platform ingests data from
+  video cameras, radar, LiDAR, signal controllers, and connected/V2X
+  infrastructure, then runs real-time edge computer vision and machine learning
+  to detect, track, and predict the movement of vehicles, pedestrians, and
+  cyclists. Derq surfaces safety and traffic intelligence — crashes, near
+  misses, violations, conflicts, counts, and ATSPMs — through its dashboard and
+  via APIs to third-party systems. Flagship products include Derq SENSE
+  (real-time traffic detection and V2X perception) and Derq INSIGHT (road safety
+  and traffic management analytics).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/587b7fc9a5790ab82b96b1eb/t/587b84959f745611b9fd789c/1484489879754/light-blue---dark-blue.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/derq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Intelligent Transportation
+- Road Safety
+- Traffic Analytics
+- Computer Vision
+- V2X
+- Smart Cities
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://derq.com/
+  url: https://en.derq.com/
+- type: Blog
+  url: https://en.derq.com/blog
+- type: Support
+  url: https://en.derq.com/contact-us
+- type: PrivacyPolicy
+  url: https://en.derq.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/derq
+- type: YouTube
+  url: https://www.youtube.com/channel/UCgOPEMwnlx2NleWCF1UmGUg
+- type: DomainSecurity
+  url: security/derq-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
